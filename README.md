@@ -1,27 +1,58 @@
-# MagicMagiciansAngular
+# Math_magicians
+"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  Make simple calculations. Read a random math-related quote.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## Screenshots
 
-## Development server
+![screenshot](./screenshot/pc.jpeg)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Built With
+- Angular
 
-## Code scaffolding
+## Prerequisites
+ -  [Git](https://git-scm.com/downloads)
+ -  [Node](https://nodejs.org/en/download/)
+ - [Angular](https://angular.io)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+Go to your terminal, navigate to your working directory and run
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+`git clone https://github.com/RayhanTabase/math_magicians_angular.git`
 
-## Running unit tests
+After that navigate to the newly created folder
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`cd math-magicians`
 
-## Running end-to-end tests
+You now have access to the files.
+To install necessary dependencies run
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+`npm install`
 
-## Further help
+Start a local server running the command
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+`ng serve` 
+
+Navigate to `http://localhost:4200/` on your browser.
+
+## Author
+
+👤 **Salim Abdulai**
+
+- GitHub: [@RayhanTabase](https://github.com/RayhanTabase)
+- Twitter: [@RayhanTabase](https://twitter.com/@RayhanTabase)
+- LinkedIn: [Salim-Abdulai](https://linkedin.com/in/salim-abdulai-5430065b)
+- Email: salimabdulai2@yahoo.com
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

@@ -25,11 +25,9 @@ export class CalculatorComponent implements OnInit {
     }
     const element = event.currentTarget as HTMLInputElement;
     const name = element.name;
-    console.log(name);
     const result = calculate(data,name);
     this.total = result.total;
     this.next = result.next;
     this.operation = result.operation;
-    console.log(result);
   }
 }
