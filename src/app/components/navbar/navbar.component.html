@@ -1,1 +1,20 @@
-<p>navbar works!</p>
+<nav className="navbar">
+  <h1 className="header">Math Magicians</h1>
+  <ul class="nav-links">
+    <li>
+      <a routerLink="" routerLinkActive="is_active" [routerLinkActiveOptions]={exact:true}>
+        Home
+      </a>
+    </li>
+    <li>
+      <a routerLink="quote" routerLinkActive="is_active">
+        Quote
+      </a>
+    </li>
+    <li>
+      <a routerLink="calculator" routerLinkActive="is_active">
+        Calculator
+      </a>
+    </li>
+  </ul>
+</nav>

@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+  author: string = 'William Paul Thurston'
+  quote:string = 'Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.'
 
   constructor() { }
 

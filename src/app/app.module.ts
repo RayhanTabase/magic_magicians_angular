@@ -10,9 +10,11 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { QuoteComponent } from './components/quote/quote.component';
 
-// const appRoutes: Routes = [
-//   {path: '', component:}
-// ]
+const appRoutes: Routes = [
+  {path: '', component:HomeComponent},
+  {path: 'quote', component:QuoteComponent},
+  {path: 'calculator', component:CalculatorComponent}
+]
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { QuoteComponent } from './components/quote/quote.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(appRoutes, {enableTracing: true}),
   ],
   providers: [],
   bootstrap: [AppComponent]
