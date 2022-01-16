@@ -35,10 +35,9 @@
   border-right: none;
 }
 
-.is_active {
+.navbar .nav-links .active {
   color: green;
 }
-
 
 @media (max-width: 768px) {
   .navbar {
