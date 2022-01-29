@@ -5,6 +5,9 @@
 
 ![screenshot](./screenshot/pc.jpeg)
 
+## Live version
+- [Live](https://salim-math-magic.herokuapp.com/)
+
 ## Built With
 - Angular
 
